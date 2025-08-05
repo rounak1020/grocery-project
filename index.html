@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Project</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Grocery </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCR2eBUKsjuLAl0oqz7YvkZJFU1C3znejG4g&s" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">Rs20/kg</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="https://m.media-amazon.com/images/I/51DJ-9xkuQL._UF1000,1000_QL80_.jpg" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">RS30/kg</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="https://www.licious.in/blog/wp-content/uploads/2022/03/Chicken-Curry-Cut-min-1.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">Rs 220/kg</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : Rs120/-</div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>fresh and <span>organic</span> products for you</h3>
+        <p>fresh mart is where early adopters and innovation sockers find lively, imaginative tech before it hits the mainstream.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> our <span>features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://static.wixstatic.com/media/94982f_48ed3886e31440f1abaf6adb618baedd~mv2.jpg/v1/fill/w_2500,h_1421,al_c/94982f_48ed3886e31440f1abaf6adb618baedd~mv2.jpg" alt="">
+            <h3>fresh and organic</h3>
+            <p>Fresh vegetables and fruits in cheap price.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/019/796/973/small_2x/motorbike-delivery-man-logo-icon-symbol-template-free-vector.jpg" alt="">
+            <h3>free delivery</h3>
+            <p>We always do fast delivery on our customers.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn.prod.website-files.com/63e56114746188c54e2936e0/67c87d122f3a9b788da23c3d_Blog-Thumbnail-Payments-03%402x.png" alt="">
+            <h3>easy payments</h3>
+            <p>It is very easy to pay on our website, you can pay easily.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaY8yZ1yHyDeKUCIM7hIQMDG29XCmh9DTLTA&s" alt="">
+                <h3>fresh orange</h3>
+                <div class="price">RS 90/kg </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://plantix.net/en/library/assets/custom/crop-images/onion.jpeg" alt="">
+                <h3>fresh onion</h3>
+                <div class="price"> Rs30/kg </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-3.png" alt="">
+                <h3>fresh meat</h3>
+                <div class="price">Rs120/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://cdn.prod.website-files.com/630a4d18e83aaa000bcd651e/672a8eabc15522f9a229f44f_shutterstock_2377631805.jpg" alt="">
+                <h3>fresh cabbage</h3>
+                <div class="price"> Rs15/kg </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://www.tasteofhome.com/wp-content/uploads/2022/07/GettyImages-1224918845-e1658929817975.jpg" alt="">
+                <h3>fresh potato</h3>
+                <div class="price"> Rs20/kg </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            
+
+            
+
+           
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> product <span>categories</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://cdn.britannica.com/17/196817-159-9E487F15/vegetables.jpg" alt="">
+            <h3>vegitables</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmMFUr4TWHqkYckkiJqqEqBFqYy9gQKQ7N3w&s" alt="">
+            <h3>fresh fruits</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/9685/iStock-544807136.jpg" alt="">
+            <h3>dairy products</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://img1.wsimg.com/isteam/ip/e98676a5-64ec-41aa-bada-bc7ac9d64eef/Chicken-Cuts-2048x706.jpeg" alt="">
+            <h3>fresh meat</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhZm9vZHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+            <h3>sea food</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/burger-king-cheeseburger-1666891208.jpg?crop=0.8894601542416453xw:1xh;center,top&resize=980:*" alt="">
+            <h3>Fast Food</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- categories section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://etnowgbs.com/wp-content/uploads/2024/12/AMIT-SHAH-1.jpg" alt="">
+                <p>Very good website. All the stuff on this website is absolutely great. You all can buy your stuff from here.</p>
+                <h3>ritesh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <p>Very good website. All the stuff on this website is absolutely great. You all can buy your stuff from here.</p>
+                <h3>rima</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <p>Very good website. All the stuff on this website is absolutely great. You all can buy your stuff from here.</p>
+                <h3>ritesh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <p>Very good website. All the stuff on this website is absolutely great. You all can buy your stuff from here.</p>
+                <h3>ashish</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://previews.123rf.com/images/monticello/monticello1508/monticello150800111/44285585-fresh-organic-vegetables-and-fruits-in-the-garden-balanced-diet.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st aug, 2025</a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>fresh mart is Where Early Adopters And Innovation Sockers Find Lively, Imaginative Tech Before It Hits The Mainstream.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://content.jdmagicbox.com/comp/def_content/vegetable-vendors/5bib6gpqm8-vegetable-vendors-6-22mrm.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st aug, 2025 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>fresh mart Is Where Early Adopters And Innovation Sockers Find Lively, Imaginative Tech Before It Hits The Mainstream.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://assets.cntraveller.in/photos/60ba23b90f3a5367ec9fe85b/4:3/w_1024,h_768,c_limit/Farm-fresh-produce-1366x768.jpg" alt="nigger">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st aug, 2025 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>fresh mart is Where Early Adopters And Innovation Sockers Find Lively, Imaginative Tech Before It Hits The Mainstream.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Grocery <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Hello my name is Rounak Singh. I made this website for practice purpose only, I hope you all enjoy this project.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +91 7061714708</a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +91 8797740828 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> rounakkumar4423@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Jamshedpur, india - 831018 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> ROUNAK </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
